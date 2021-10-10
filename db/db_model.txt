@@ -1,9 +1,0 @@
-Participantes(participants) tem matrícula(id), nome(name), sobrenome(surname), email(email), telefone(phone_number) e senha(password). Quando um participante participa de uma peça tem os campos role_id e play_id referenciando o cargo que exerce e a peça onde trabalha, respectivamente. Caso não participe de nenhuma peça ambos os campos ficam nulos.
-
-Peças(plays) tem identificador(id), nome(name), classificação(classification_id) e tipo(type_id). classification_id e type_id referenciam a classificação e o tipo da peça nas tabelas play_classifications e play_types, respectivamente.
-
-Sessões(sessions) tem identificador(id), data e horário(session_date), assentos(seats). Toda sessão é de uma peça e usa uma sala, possuindo os campos play_id e room_id que referenciam as tabelas plays e rooms.
-
-Salas(rooms) tem identificador(id), nome(name) e capacidade(capacity).
-
-Ingressos(tickets) tem identificador(id), preço(price), tipo(type_id). type_id referencia o tipo do ingresso em ticket_types. Além disso tem session_id que referencia uma sessão específica em sessions.
