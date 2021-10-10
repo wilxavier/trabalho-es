@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Banner } from '../../components/Banner';
+import { Banner } from '../../components/BannerHome';
 import { ListPlays } from '../../components/ListPlays';
 import {
   homeBanner, homePlayAuto, homePlayComedia, homePlayDrama,
