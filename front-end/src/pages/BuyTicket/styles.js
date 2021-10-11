@@ -4,8 +4,8 @@ import { Wrapper as Container } from '../../components/Container';
 export const Wrapper = styled(Container)`
   display: flex;
   flex-direction: row;
-
-  margin: 3.75rem 0;
+  padding-top: 3.75rem;
+  background: #fff;
 `;
 
 export const WrapperLeft = styled.div`
