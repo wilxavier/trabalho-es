@@ -8,9 +8,11 @@ import {
   homePlayOpera, homePlayRevista
 } from './data';
 
+import { Wrapper } from './styles';
+
 export const HomePage = () => {
   return (
-    <>
+    <Wrapper>
       <Banner {...homeBanner} />
       <ListPlays title={'Auto'} itens={homePlayAuto} />
       <ListPlays title={'Comédia'} itens={homePlayComedia} />
@@ -21,6 +23,6 @@ export const HomePage = () => {
       <ListPlays title={'Musical'} itens={homePlayMusical} />
       <ListPlays title={'Ópera'} itens={homePlayOpera} />
       <ListPlays title={'Revista'} itens={homePlayRevista} />
-    </>
+    </Wrapper>
   );
 };
