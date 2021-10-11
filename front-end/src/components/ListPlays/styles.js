@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Wrapper as Container } from '../Container';
 
 export const Wrapper = styled(Container)`
-  margin-bottom: 3.75rem;
+  padding-bottom: 3.75rem;
 `;
 
 export const Title = styled.p`
