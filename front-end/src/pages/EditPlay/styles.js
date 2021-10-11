@@ -5,8 +5,8 @@ import { IoIosAddCircle, IoIosClose, IoMdCreate } from "react-icons/io";
 export const Wrapper = styled(Container)`
   display: flex;
   flex-direction: row;
-
-  margin: 3.75rem 0;
+  background: #fff;
+  padding-top: 3.75rem;
 `;
 
 export const WrapperLeft = styled.div`
