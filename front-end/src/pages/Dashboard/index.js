@@ -7,15 +7,17 @@ import {
   dashboardPlayDrama, dashboardPlayFarsa, dashboardPlayMelodrama
 } from './data';
 
+import { Wrapper } from './styles';
+
 export const DashboardPage = () => {
   return (
-    <>
+    <Wrapper>
       <Banner {...dashboardInfo} />
       <ListPlays title={'Auto'} itens={dashboardPlayAuto} />
       <ListPlays title={'Comédia'} itens={dashboardPlayComedia} />
       <ListPlays title={'Drama'} itens={dashboardPlayDrama} />
       <ListPlays title={'Farsa'} itens={dashboardPlayFarsa} />
       <ListPlays title={'Melodrama'} itens={dashboardPlayMelodrama} />
-    </>
+    </Wrapper>
   );
 };
