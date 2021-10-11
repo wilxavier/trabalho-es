@@ -6,6 +6,7 @@ export const Wrapper = styled.input`
   padding: 1.25rem;
   border: 0;
   border-radius: 4px;
+  background: #fff;
 
   &+input {
     margin-top: 1rem;

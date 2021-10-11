@@ -1,13 +1,7 @@
-import ghostoftsushima from '../../assets/ghostoftsushima.jpeg';
-import godofwar from '../../assets/godofwar.jpeg';
-import granturismo from '../../assets/granturismo.jpeg';
-import thelastofus from '../../assets/thelastofus.jpeg';
-import spiderman from '../../assets/spiderman.jpeg';
-import shangchi from '../../assets/shang-chi.jpeg';
-import medievil from '../../assets/medievil.png';
+import image from '../../assets/image.png';
 
 export const dashboardInfo = {
-  total: 15,
+  total: 13,
 }
 
 export const dashboardPlayAuto = [
@@ -15,15 +9,15 @@ export const dashboardPlayAuto = [
     id: '1',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: ghostoftsushima
+    type: 'auto',
+    image: image
   },
   {
     id: '2',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: godofwar
+    type: 'auto',
+    image: image
   },
 ]
 
@@ -32,29 +26,29 @@ export const dashboardPlayComedia = [
     id: '1',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: medievil
+    type: 'comedia',
+    image: image
   },
   {
     id: '2',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: shangchi
+    type: 'comedia',
+    image: image
   },
   {
     id: '3',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: spiderman
+    type: 'comedia',
+    image: image
   },
   {
     id: '4',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: thelastofus
+    type: 'comedia',
+    image: image
   },
 ]
 
@@ -64,21 +58,21 @@ export const dashboardPlayDrama = [
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
     type: 'drama',
-    image: thelastofus
+    image: image
   },
   {
     id: '2',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
     type: 'drama',
-    image: ghostoftsushima
+    image: image
   },
   {
     id: '3',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
     type: 'drama',
-    image: spiderman
+    image: image
   },
 ]
 
@@ -87,8 +81,8 @@ export const dashboardPlayFarsa = [
     id: '1',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: granturismo
+    type: 'farsa',
+    image: image
   },
 ]
 
@@ -97,21 +91,21 @@ export const dashboardPlayMelodrama = [
     id: '1',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: granturismo
+    type: 'melodrama',
+    image: image
   },
   {
     id: '2',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: medievil
+    type: 'melodrama',
+    image: image
   },
   {
     id: '3',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: spiderman
+    type: 'melodrama',
+    image: image
   },
 ]

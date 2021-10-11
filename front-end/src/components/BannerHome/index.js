@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { history } from '../../services';
+
 import {
   Wrapper, WrapperImage, Image, DescriptionImage, Title, Description, Button
 } from './styles';
@@ -15,7 +17,11 @@ export const Banner = ({ image, title, description }) => {
             <Description>
               {description}
             </Description>
-            <Button>Sessões</Button>
+            <Button
+              onClick={() => history.push('/buyticket')}
+            >
+              Sessões
+            </Button>
           </DescriptionImage>
       </WrapperImage>
     </Wrapper>

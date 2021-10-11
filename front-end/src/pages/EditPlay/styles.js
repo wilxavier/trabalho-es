@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Wrapper as Container } from '../../components/Container';
 import { IoIosAddCircle, IoIosClose, IoMdCreate } from "react-icons/io";
+import Modal from 'react-modal';
 
 export const Wrapper = styled(Container)`
   display: flex;
@@ -272,4 +273,74 @@ export const WrapperIconEdit = styled(Icon)`
     background: #7D848A;
     transition: 0.3s;
   }
+`;
+
+
+export const WrapperModal = styled(Modal)`
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+`;
+
+export const ModalFull = styled.div`
+  position: relative;
+`;
+
+export const Form = styled.form`
+  display: flex;
+  flex-direction: column;
+  padding: 4.25rem;
+  background: #232A34;
+  border-radius: 4px;
+  margin: 2rem 0;
+`;
+
+export const TitleModal = styled.p`
+  font-size: 1.875rem;
+  color: #fff;
+  margin-bottom: 2rem;
+`;
+
+export const ButtonAddModal = styled.button`
+  font-size: 1rem;
+  padding: 1rem 0;
+  color: #fff;
+  border-radius: 4px;
+  background: #B3354A;
+  margin: 2.5rem 0 0;
+
+  &:hover {
+    background: #D22A46;
+    transition: 0.3s;
+  }
+`;
+
+export const IconModal = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 4px;
+  position: absolute;
+`;
+
+export const WrapperIconDeleteModal = styled(IconModal)`
+  background: #B3354A;
+  top: 2.4rem;
+  right: 0.5rem;
+  cursor: pointer;
+
+  &:hover {
+    background: #D22A46;
+    transition: 0.3s;
+  }
+`;
+
+export const IconDeleteModal = styled(IoIosClose)`
+  height: 1.75rem;
+  width: 1.75rem;
+  color: #fff;
 `;

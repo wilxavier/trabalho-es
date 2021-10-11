@@ -1,21 +1,44 @@
 import React from 'react';
 
+import { NavBar } from '../../components/NavBar';
 import { Input } from '../../components/Form/Input';
 
 import { Wrapper, Form, Title, ButtonSignIn, ButtonSignUp } from './styles';
 
-export const SignInPage = () => {
+export const SignInPage = ({ history }) => {
+
+  const handleLogin = () => {
+    localStorage.setItem('@logged', JSON.stringify(true));
+
+    history.push('/');
+  }
   return (
-    <Wrapper>
-      <Form>
-        <Title>Entrar</Title>
+    <>
+      <NavBar />
+      <Wrapper>
+        <Form>
+          <Title>Entrar</Title>
 
-        <Input placeholder="Email" />
-        <Input placeholder="Senha" />
+          <Input
+            placeholder="Email"
+          />
+          <Input
+            placeholder="Senha"
+            type={'password'}
+          />
 
-        <ButtonSignIn to={'/dashboard'}>Entrar</ButtonSignIn>
-        <ButtonSignUp to={'/signup'}>Cadastrar-se</ButtonSignUp>
-      </Form>
-    </Wrapper>
+          <ButtonSignIn
+            onClick={() => handleLogin()}
+          >
+            Entrar
+          </ButtonSignIn>
+          <ButtonSignUp
+            onClick={() => history.push('/signup')}
+          >
+            Cadastrar-se
+          </ButtonSignUp>
+        </Form>
+      </Wrapper>
+    </>
   );
 };

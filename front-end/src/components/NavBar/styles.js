@@ -26,7 +26,10 @@ export const Logo = styled(Link)`
   font-family: 'Dancing Script', sans-serif;
 `;
 
-export const Menu = styled.ul``;
+export const Menu = styled.ul`
+  display: flex;
+  flex-direction: row;
+`;
 
 export const MenuItem = styled.li`
   display: flex;

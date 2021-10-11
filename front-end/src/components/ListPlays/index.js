@@ -1,10 +1,12 @@
 import React from 'react';
 
+import { history } from '../../services';
+
 import {
   Wrapper, Title, WrapperItens, WrapperImage, Image
 } from './styles';
 
-export const ListPlays = ({ title, itens }) => {
+export const ListPlays = ({ title, itens, edit }) => {
   return (
     <Wrapper>
       <Title>{title}</Title>
@@ -12,7 +14,10 @@ export const ListPlays = ({ title, itens }) => {
       <WrapperItens>
         {
           itens.map((item, index) => (
-            <WrapperImage key={index}>
+            <WrapperImage
+              onClick={() => !edit ? history.push('/buyticket') : history.push('/editplay')}
+              key={index}
+            >
               <Image src={item.image} alt={''} />
             </WrapperImage>
           ))

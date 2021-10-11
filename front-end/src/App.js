@@ -6,8 +6,8 @@ import { GlobalStyle } from './global';
 const App = () => {
   return (
     <>
-      <GlobalStyle />
       <Routes />
+      <GlobalStyle />
     </>
   );
 };

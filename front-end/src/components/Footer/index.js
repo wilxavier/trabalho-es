@@ -11,10 +11,10 @@ export const Footer = () => {
         <Title>Dúvidas? Ligue 0800-000-0000</Title>
 
         <LinksWrapper>
-          <FooterLink to={'/'}>Perguntas frequentes</FooterLink>
-          <FooterLink to={'/'}>Central de ajuda</FooterLink>
-          <FooterLink to={'/'}>Termos de uso</FooterLink>
-          <FooterLink to={'/'}>Privacidade</FooterLink>
+          <FooterLink>Perguntas frequentes</FooterLink>
+          <FooterLink>Central de ajuda</FooterLink>
+          <FooterLink>Termos de uso</FooterLink>
+          <FooterLink>Privacidade</FooterLink>
         </LinksWrapper>
       </Wrapper>
     </FooterContainer>

@@ -1,17 +1,11 @@
-import banner from '../../assets/spiderman.png';
-import ghostoftsushima from '../../assets/ghostoftsushima.jpeg';
-import godofwar from '../../assets/godofwar.jpeg';
-import granturismo from '../../assets/granturismo.jpeg';
-import thelastofus from '../../assets/thelastofus.jpeg';
-import spiderman from '../../assets/spiderman.jpeg';
-import shangchi from '../../assets/shang-chi.jpeg';
-import medievil from '../../assets/medievil.png';
+import banner from '../../assets/banner.png';
+import image from '../../assets/image.png';
 
 export const homeBanner = {
   id: '1',
   title: 'O GOLPE DO AMOR',
   description: 'Quando o amor é distorcido até se transformar em manipulação, tudo pode acontecer. Até mesmo um assassinato.',
-  image: banner,
+  image: banner
 }
 
 export const homePlayAuto = [
@@ -19,50 +13,50 @@ export const homePlayAuto = [
     id: '1',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: ghostoftsushima
+    type: 'auto',
+    image: image
   },
   {
     id: '2',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: godofwar
+    type: 'auto',
+    image: image
   },
   {
     id: '3',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: granturismo
+    type: 'auto',
+    image: image
   },
   {
     id: '4',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: thelastofus
+    type: 'auto',
+    image: image
   },
   {
     id: '5',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: spiderman
+    type: 'auto',
+    image: image
   },
   {
     id: '6',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: shangchi
+    type: 'auto',
+    image: image
   },
   {
     id: '7',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: medievil
+    type: 'auto',
+    image: image
   },
 ]
 
@@ -71,36 +65,36 @@ export const homePlayComedia = [
     id: '1',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: medievil
+    type: 'comedia',
+    image: image
   },
   {
     id: '2',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: shangchi
+    type: 'comedia',
+    image: image
   },
   {
     id: '3',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: spiderman
+    type: 'comedia',
+    image: image
   },
   {
     id: '4',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: thelastofus
+    type: 'comedia',
+    image: image
   },
   {
     id: '5',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: granturismo
+    type: 'comedia',
+    image: image
   },
 ]
 
@@ -110,21 +104,21 @@ export const homePlayDrama = [
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
     type: 'drama',
-    image: thelastofus
+    image: image
   },
   {
     id: '2',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
     type: 'drama',
-    image: ghostoftsushima
+    image: image
   },
   {
     id: '3',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
     type: 'drama',
-    image: spiderman
+    image: image
   },
 ]
 
@@ -133,43 +127,43 @@ export const homePlayFarsa = [
     id: '1',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: granturismo
+    type: 'farsa',
+    image: image
   },
   {
     id: '2',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: godofwar
+    type: 'farsa',
+    image: image
   },
   {
     id: '3',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: medievil
+    type: 'farsa',
+    image: image
   },
   {
     id: '4',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: thelastofus
+    type: 'farsa',
+    image: image
   },
   {
     id: '5',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: godofwar
+    type: 'farsa',
+    image: image
   },
   {
     id: '6',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: godofwar
+    type: 'farsa',
+    image: image
   },
 ]
 
@@ -178,57 +172,57 @@ export const homePlayMelodrama = [
     id: '1',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: granturismo
+    type: 'melodrama',
+    image: image
   },
   {
     id: '2',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: medievil
+    type: 'melodrama',
+    image: image
   },
   {
     id: '3',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: spiderman
+    type: 'melodrama',
+    image: image
   },
   {
     id: '4',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: granturismo
+    type: 'melodrama',
+    image: image
   },
   {
     id: '5',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: shangchi
+    type: 'melodrama',
+    image: image
   },
   {
     id: '6',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: godofwar
+    type: 'melodrama',
+    image: image
   },
   {
     id: '7',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: thelastofus
+    type: 'melodrama',
+    image: image
   },
   {
     id: '8',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: medievil
+    type: 'melodrama',
+    image: image
   }
 ]
 
@@ -237,8 +231,8 @@ export const homePlayMonologo = [
     id: '1',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: ghostoftsushima
+    type: 'monologo',
+    image: image
   },
 ]
 
@@ -247,29 +241,29 @@ export const homePlayMusical = [
     id: '1',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: thelastofus
+    type: 'musical',
+    image: image
   },
   {
     id: '2',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: medievil
+    type: 'musical',
+    image: image
   },
   {
     id: '3',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: ghostoftsushima
+    type: 'musical',
+    image: image
   },
   {
     id: '4',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: medievil
+    type: 'musical',
+    image: image
   },
 ]
 
@@ -278,36 +272,36 @@ export const homePlayOpera = [
     id: '1',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: spiderman
+    type: 'opera',
+    image: image
   },
   {
     id: '2',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: ghostoftsushima
+    type: 'opera',
+    image: image
   },
   {
     id: '3',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: granturismo
+    type: 'opera',
+    image: image
   },
   {
     id: '4',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: shangchi
+    type: 'opera',
+    image: image
   },
   {
     id: '5',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: medievil
+    type: 'opera',
+    image: image
   },
 ]
 
@@ -316,21 +310,21 @@ export const homePlayRevista = [
     id: '1',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: shangchi
+    type: 'revista',
+    image: image
   },
   {
     id: '2',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: granturismo
+    type: 'revista',
+    image: image
   },
   {
     id: '3',
     name: 'Shang Chi - A lenda dos dez aneis',
     classication: '15 anos',
-    type: 'drama',
-    image: thelastofus
+    type: 'revista',
+    image: image
   },
 ]

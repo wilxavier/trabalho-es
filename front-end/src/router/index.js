@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Router, Switch, Route } from 'react-router-dom';
 
 import { HomePage } from '../pages/Home';
 import { DashboardPage } from '../pages/Dashboard';
@@ -8,13 +8,13 @@ import { SignUpPage } from '../pages/SignUp';
 import { ProfilePage } from '../pages/Profile';
 import { EditPlayPage } from '../pages/EditPlay';
 import { BuyTicketPage } from '../pages/BuyTicket';
-import { NavBar } from '../components/NavBar';
 import { Footer } from '../components/Footer';
+
+import { history } from '../services';
 
 export const Routes = () => {
   return (
-    <Router>
-      <NavBar />
+    <Router history={history}>
       <Switch>
         <Route path={'/'} exact component={HomePage} />
         <Route path={'/dashboard'} component={DashboardPage} />

@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 
 import { Wrapper, Item } from './styles';
 
-export const Select = ({ itens }) => {
+export const Select = ({ itens, value, onChange }) => {
   const [select, setSelect] = useState('ator');
 
   return (
     <Wrapper
-      value={select}
-      onChange={(item) => setSelect(item.target.value)}
+      value={value}
+      onChange={onChange}
     >
       {
         itens.map((item, index) => (
