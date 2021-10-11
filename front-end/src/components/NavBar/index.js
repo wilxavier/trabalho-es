@@ -12,7 +12,7 @@ export const NavBar = () => {
 
         <Menu>
           <MenuItem>
-            <MenuLink to={'/dashboard'}>Login / Cadastro</MenuLink>
+            <MenuLink to={'/signin'}>Login / Cadastro</MenuLink>
           </MenuItem>
         </Menu>
       </Wrapper>
