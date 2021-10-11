@@ -5,7 +5,6 @@ import { Wrapper as Container } from '../Container';
 export const FooterContainer = styled.div`
   background-color: #232A34;
   padding: 2.3125rem 0;
-  margin-top: 3.75rem;
 `;
 
 export const Wrapper = styled(Container)`
